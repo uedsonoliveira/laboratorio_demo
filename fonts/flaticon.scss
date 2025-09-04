@@ -1,0 +1,421 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("../fonts/flaticon.ttf?976930228cfd5b1622b88d53a56eee35") format("truetype"),
+url("../fonts/flaticon.woff?976930228cfd5b1622b88d53a56eee35") format("woff"),
+url("../fonts/flaticon.woff2?976930228cfd5b1622b88d53a56eee35") format("woff2"),
+url("../fonts/flaticon.eot?976930228cfd5b1622b88d53a56eee35#iefix") format("embedded-opentype"),
+url("../fonts/flaticon.svg?976930228cfd5b1622b88d53a56eee35#flaticon") format("svg");
+}
+
+i[class^="pbmit-leblix-icon-"]:before, i[class*=" pbmit-leblix-icon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "diploma": "\f101",
+    "trophy": "\f102",
+    "chemistry": "\f103",
+    "medical-laboratory": "\f104",
+    "chemistry-1": "\f105",
+    "medal": "\f106",
+    "microbiology": "\f107",
+    "molecule": "\f108",
+    "feedback": "\f109",
+    "laboratory": "\f10a",
+    "gas-mask": "\f10b",
+    "bacteria": "\f10c",
+    "bacteria-1": "\f10d",
+    "experiment": "\f10e",
+    "dna": "\f10f",
+    "scientist": "\f110",
+    "molecule-1": "\f111",
+    "medical-mask": "\f112",
+    "medicines": "\f113",
+    "virus": "\f114",
+    "atomic": "\f115",
+    "thermometer": "\f116",
+    "flask": "\f117",
+    "newtons-cradle": "\f118",
+    "jigsaw": "\f119",
+    "brain": "\f11a",
+    "syringe": "\f11b",
+    "hydrogen": "\f11c",
+    "lungs": "\f11d",
+    "sperm": "\f11e",
+    "cell": "\f11f",
+    "stomach": "\f120",
+    "platelet": "\f121",
+    "electrocardiogram": "\f122",
+    "plant": "\f123",
+    "flask-1": "\f124",
+    "rocket": "\f125",
+    "safety-glasses": "\f126",
+    "flasks": "\f127",
+    "test-tube": "\f128",
+    "light-bulb": "\f129",
+    "nutritional-test": "\f12a",
+    "apple": "\f12b",
+    "u-magnet": "\f12c",
+    "temperature": "\f12d",
+    "gravity": "\f12e",
+    "gender": "\f12f",
+    "blackboard": "\f130",
+    "syringe-1": "\f131",
+    "mouse": "\f132",
+    "flasks-1": "\f133",
+    "robot": "\f134",
+    "planet": "\f135",
+    "computer": "\f136",
+    "brain-1": "\f137",
+    "atom": "\f138",
+    "dna-1": "\f139",
+    "virus-1": "\f13a",
+    "scientist-1": "\f13b",
+    "caduceus": "\f13c",
+    "world": "\f13d",
+    "satellite": "\f13e",
+    "beaker": "\f13f",
+    "microscope": "\f140",
+    "telescope": "\f141",
+    "microscope-1": "\f142",
+    "nuclear": "\f143",
+    "cloning": "\f144",
+    "dna-2": "\f145",
+    "rocket-launch": "\f146",
+    "test-tube-1": "\f147",
+    "chemical-reaction": "\f148",
+    "reproduction": "\f149",
+    "chemistry-2": "\f14a",
+    "gas-mask-1": "\f14b",
+    "chemistry-3": "\f14c",
+    "petri-dish": "\f14d",
+    "syringe-2": "\f14e",
+    "nuclear-1": "\f14f",
+    "rocket-launch-1": "\f150",
+    "syringe-3": "\f151",
+    "atomic-1": "\f152",
+    "beaker-1": "\f153",
+    "prism": "\f154",
+    "orbit": "\f155",
+    "burn": "\f156",
+    "thermometer-1": "\f157",
+    "bottle": "\f158",
+    "bottle-1": "\f159",
+    "dna-3": "\f15a",
+    "call": "\f15b",
+    "location": "\f15c",
+    "mail": "\f15d",
+    "telephone": "\f15e",
+    "chat": "\f15f",
+    "send": "\f160",
+    "time-call": "\f161",
+    "rec": "\f162",
+    "comment": "\f163",
+);
+
+.pbmit-leblix-icon-diploma:before {
+    content: map-get($flaticon-map, "diploma");
+}
+.pbmit-leblix-icon-trophy:before {
+    content: map-get($flaticon-map, "trophy");
+}
+.pbmit-leblix-icon-chemistry:before {
+    content: map-get($flaticon-map, "chemistry");
+}
+.pbmit-leblix-icon-medical-laboratory:before {
+    content: map-get($flaticon-map, "medical-laboratory");
+}
+.pbmit-leblix-icon-chemistry-1:before {
+    content: map-get($flaticon-map, "chemistry-1");
+}
+.pbmit-leblix-icon-medal:before {
+    content: map-get($flaticon-map, "medal");
+}
+.pbmit-leblix-icon-microbiology:before {
+    content: map-get($flaticon-map, "microbiology");
+}
+.pbmit-leblix-icon-molecule:before {
+    content: map-get($flaticon-map, "molecule");
+}
+.pbmit-leblix-icon-feedback:before {
+    content: map-get($flaticon-map, "feedback");
+}
+.pbmit-leblix-icon-laboratory:before {
+    content: map-get($flaticon-map, "laboratory");
+}
+.pbmit-leblix-icon-gas-mask:before {
+    content: map-get($flaticon-map, "gas-mask");
+}
+.pbmit-leblix-icon-bacteria:before {
+    content: map-get($flaticon-map, "bacteria");
+}
+.pbmit-leblix-icon-bacteria-1:before {
+    content: map-get($flaticon-map, "bacteria-1");
+}
+.pbmit-leblix-icon-experiment:before {
+    content: map-get($flaticon-map, "experiment");
+}
+.pbmit-leblix-icon-dna:before {
+    content: map-get($flaticon-map, "dna");
+}
+.pbmit-leblix-icon-scientist:before {
+    content: map-get($flaticon-map, "scientist");
+}
+.pbmit-leblix-icon-molecule-1:before {
+    content: map-get($flaticon-map, "molecule-1");
+}
+.pbmit-leblix-icon-medical-mask:before {
+    content: map-get($flaticon-map, "medical-mask");
+}
+.pbmit-leblix-icon-medicines:before {
+    content: map-get($flaticon-map, "medicines");
+}
+.pbmit-leblix-icon-virus:before {
+    content: map-get($flaticon-map, "virus");
+}
+.pbmit-leblix-icon-atomic:before {
+    content: map-get($flaticon-map, "atomic");
+}
+.pbmit-leblix-icon-thermometer:before {
+    content: map-get($flaticon-map, "thermometer");
+}
+.pbmit-leblix-icon-flask:before {
+    content: map-get($flaticon-map, "flask");
+}
+.pbmit-leblix-icon-newtons-cradle:before {
+    content: map-get($flaticon-map, "newtons-cradle");
+}
+.pbmit-leblix-icon-jigsaw:before {
+    content: map-get($flaticon-map, "jigsaw");
+}
+.pbmit-leblix-icon-brain:before {
+    content: map-get($flaticon-map, "brain");
+}
+.pbmit-leblix-icon-syringe:before {
+    content: map-get($flaticon-map, "syringe");
+}
+.pbmit-leblix-icon-hydrogen:before {
+    content: map-get($flaticon-map, "hydrogen");
+}
+.pbmit-leblix-icon-lungs:before {
+    content: map-get($flaticon-map, "lungs");
+}
+.pbmit-leblix-icon-sperm:before {
+    content: map-get($flaticon-map, "sperm");
+}
+.pbmit-leblix-icon-cell:before {
+    content: map-get($flaticon-map, "cell");
+}
+.pbmit-leblix-icon-stomach:before {
+    content: map-get($flaticon-map, "stomach");
+}
+.pbmit-leblix-icon-platelet:before {
+    content: map-get($flaticon-map, "platelet");
+}
+.pbmit-leblix-icon-electrocardiogram:before {
+    content: map-get($flaticon-map, "electrocardiogram");
+}
+.pbmit-leblix-icon-plant:before {
+    content: map-get($flaticon-map, "plant");
+}
+.pbmit-leblix-icon-flask-1:before {
+    content: map-get($flaticon-map, "flask-1");
+}
+.pbmit-leblix-icon-rocket:before {
+    content: map-get($flaticon-map, "rocket");
+}
+.pbmit-leblix-icon-safety-glasses:before {
+    content: map-get($flaticon-map, "safety-glasses");
+}
+.pbmit-leblix-icon-flasks:before {
+    content: map-get($flaticon-map, "flasks");
+}
+.pbmit-leblix-icon-test-tube:before {
+    content: map-get($flaticon-map, "test-tube");
+}
+.pbmit-leblix-icon-light-bulb:before {
+    content: map-get($flaticon-map, "light-bulb");
+}
+.pbmit-leblix-icon-nutritional-test:before {
+    content: map-get($flaticon-map, "nutritional-test");
+}
+.pbmit-leblix-icon-apple:before {
+    content: map-get($flaticon-map, "apple");
+}
+.pbmit-leblix-icon-u-magnet:before {
+    content: map-get($flaticon-map, "u-magnet");
+}
+.pbmit-leblix-icon-temperature:before {
+    content: map-get($flaticon-map, "temperature");
+}
+.pbmit-leblix-icon-gravity:before {
+    content: map-get($flaticon-map, "gravity");
+}
+.pbmit-leblix-icon-gender:before {
+    content: map-get($flaticon-map, "gender");
+}
+.pbmit-leblix-icon-blackboard:before {
+    content: map-get($flaticon-map, "blackboard");
+}
+.pbmit-leblix-icon-syringe-1:before {
+    content: map-get($flaticon-map, "syringe-1");
+}
+.pbmit-leblix-icon-mouse:before {
+    content: map-get($flaticon-map, "mouse");
+}
+.pbmit-leblix-icon-flasks-1:before {
+    content: map-get($flaticon-map, "flasks-1");
+}
+.pbmit-leblix-icon-robot:before {
+    content: map-get($flaticon-map, "robot");
+}
+.pbmit-leblix-icon-planet:before {
+    content: map-get($flaticon-map, "planet");
+}
+.pbmit-leblix-icon-computer:before {
+    content: map-get($flaticon-map, "computer");
+}
+.pbmit-leblix-icon-brain-1:before {
+    content: map-get($flaticon-map, "brain-1");
+}
+.pbmit-leblix-icon-atom:before {
+    content: map-get($flaticon-map, "atom");
+}
+.pbmit-leblix-icon-dna-1:before {
+    content: map-get($flaticon-map, "dna-1");
+}
+.pbmit-leblix-icon-virus-1:before {
+    content: map-get($flaticon-map, "virus-1");
+}
+.pbmit-leblix-icon-scientist-1:before {
+    content: map-get($flaticon-map, "scientist-1");
+}
+.pbmit-leblix-icon-caduceus:before {
+    content: map-get($flaticon-map, "caduceus");
+}
+.pbmit-leblix-icon-world:before {
+    content: map-get($flaticon-map, "world");
+}
+.pbmit-leblix-icon-satellite:before {
+    content: map-get($flaticon-map, "satellite");
+}
+.pbmit-leblix-icon-beaker:before {
+    content: map-get($flaticon-map, "beaker");
+}
+.pbmit-leblix-icon-microscope:before {
+    content: map-get($flaticon-map, "microscope");
+}
+.pbmit-leblix-icon-telescope:before {
+    content: map-get($flaticon-map, "telescope");
+}
+.pbmit-leblix-icon-microscope-1:before {
+    content: map-get($flaticon-map, "microscope-1");
+}
+.pbmit-leblix-icon-nuclear:before {
+    content: map-get($flaticon-map, "nuclear");
+}
+.pbmit-leblix-icon-cloning:before {
+    content: map-get($flaticon-map, "cloning");
+}
+.pbmit-leblix-icon-dna-2:before {
+    content: map-get($flaticon-map, "dna-2");
+}
+.pbmit-leblix-icon-rocket-launch:before {
+    content: map-get($flaticon-map, "rocket-launch");
+}
+.pbmit-leblix-icon-test-tube-1:before {
+    content: map-get($flaticon-map, "test-tube-1");
+}
+.pbmit-leblix-icon-chemical-reaction:before {
+    content: map-get($flaticon-map, "chemical-reaction");
+}
+.pbmit-leblix-icon-reproduction:before {
+    content: map-get($flaticon-map, "reproduction");
+}
+.pbmit-leblix-icon-chemistry-2:before {
+    content: map-get($flaticon-map, "chemistry-2");
+}
+.pbmit-leblix-icon-gas-mask-1:before {
+    content: map-get($flaticon-map, "gas-mask-1");
+}
+.pbmit-leblix-icon-chemistry-3:before {
+    content: map-get($flaticon-map, "chemistry-3");
+}
+.pbmit-leblix-icon-petri-dish:before {
+    content: map-get($flaticon-map, "petri-dish");
+}
+.pbmit-leblix-icon-syringe-2:before {
+    content: map-get($flaticon-map, "syringe-2");
+}
+.pbmit-leblix-icon-nuclear-1:before {
+    content: map-get($flaticon-map, "nuclear-1");
+}
+.pbmit-leblix-icon-rocket-launch-1:before {
+    content: map-get($flaticon-map, "rocket-launch-1");
+}
+.pbmit-leblix-icon-syringe-3:before {
+    content: map-get($flaticon-map, "syringe-3");
+}
+.pbmit-leblix-icon-atomic-1:before {
+    content: map-get($flaticon-map, "atomic-1");
+}
+.pbmit-leblix-icon-beaker-1:before {
+    content: map-get($flaticon-map, "beaker-1");
+}
+.pbmit-leblix-icon-prism:before {
+    content: map-get($flaticon-map, "prism");
+}
+.pbmit-leblix-icon-orbit:before {
+    content: map-get($flaticon-map, "orbit");
+}
+.pbmit-leblix-icon-burn:before {
+    content: map-get($flaticon-map, "burn");
+}
+.pbmit-leblix-icon-thermometer-1:before {
+    content: map-get($flaticon-map, "thermometer-1");
+}
+.pbmit-leblix-icon-bottle:before {
+    content: map-get($flaticon-map, "bottle");
+}
+.pbmit-leblix-icon-bottle-1:before {
+    content: map-get($flaticon-map, "bottle-1");
+}
+.pbmit-leblix-icon-dna-3:before {
+    content: map-get($flaticon-map, "dna-3");
+}
+.pbmit-leblix-icon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.pbmit-leblix-icon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.pbmit-leblix-icon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
+.pbmit-leblix-icon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.pbmit-leblix-icon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.pbmit-leblix-icon-send:before {
+    content: map-get($flaticon-map, "send");
+}
+.pbmit-leblix-icon-time-call:before {
+    content: map-get($flaticon-map, "time-call");
+}
+.pbmit-leblix-icon-rec:before {
+    content: map-get($flaticon-map, "rec");
+}
+.pbmit-leblix-icon-comment:before {
+    content: map-get($flaticon-map, "comment");
+}
